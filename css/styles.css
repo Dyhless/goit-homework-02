@@ -1,0 +1,87 @@
+* {
+   margin: 0;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+/* Font Styles */
+
+body {
+   font-family: 'Roboto','Raleway', sans-serif;
+   color: #2E2F42;
+
+}
+
+h1 {
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 60px;
+}
+
+h2 {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 40px;
+}
+
+h3 {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+}
+
+p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+/* Button Styles */
+
+.button-order {
+   color: #FFFFFF;
+   background-color: #4D5AE5;
+}
+
+.button-order:hover,
+.button-order:focus {
+   color: #FFFFFF;
+   background-color: #404BBF;
+   cursor: pointer;
+}
+
+
+.button-filter {
+   color: #4D5AE5;
+   background-color: #E7E9FC;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+   color: #FFFFFF;
+   background-color: #404BBF;
+   cursor: pointer;
+}
+
+/* Contact Styles */
+
+.contact-mail,
+.contact-phone {
+   color: #434455;
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+   color: #404BBF;
+}
+
+.contact-phone:hover,
+.contact-phone:focus {
+   color: #404BBF;
+}
