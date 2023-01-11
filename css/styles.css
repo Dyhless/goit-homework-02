@@ -1,13 +1,19 @@
+:root {
+   --primary-font: 'Roboto', sans-serif;
+   --secondary-font: 'Raleway', sans-serif;
+   --accent-color: #404BBF;
+   --main-font-color: #2E2F42;
+   --button-color: #4D5AE5;
+}
+
 * {
    margin: 0;
 }
 
+.logo,
 .list, 
 .contacts {
    list-style: none;
-}
-
-a {
    text-decoration: none;
 }
 
@@ -18,94 +24,119 @@ a {
 */
 
 body {
-   font-family: 'Roboto','Raleway', sans-serif;
-   color: #2E2F42;
+   font-family: var(--primary-font),var(--secondary-font);
+   color: var(--main-font-color);
 
 }
 
-h1 {
-   font-weight: 700;
-   font-size: 56px;
-   line-height: 60px;
-}
-
-h2 {
+.main-names {
    font-weight: 700;
    font-size: 36px;
-   line-height: 40px;
+   line-height: 1.11em;
 }
 
-h3 {
+.titles {
    font-weight: 500;
    font-size: 20px;
-   line-height: 24px;
+   line-height: 1.2em;
 }
 
-p {
+.paragraph {
    font-size: 16px;
-   line-height: 24px;
+   line-height: 1.5em;
 }
 
-.menu {
+/**
+  |============================
+  | HERO
+  |============================
+*/
+
+.dark-bg {
+   background: var(--main-font-color);
+   color: #FFFFFF;
+}
+
+.main-title {
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 1.07em;
+}
+
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+
+.menu-item {
+   text-decoration: none;
    font-weight: 500;
    font-size: 16px;
-   line-height: 24px;
+   line-height: 1.5em;
    letter-spacing: 0.02em;
-   color: #2E2F42;
+   color: var(--main-font-color);
 }
 
-/**
-  |============================
-  | Button Styles
-  |============================
-*/
-
-.button-order {
-   color: #FFFFFF;
-   background-color: #4D5AE5;
+.menu-item:hover,
+.menu-item:focus {
+   color: var(--accent-color);
 }
-
-.button-order:hover,
-.button-order:focus {
-   color: #FFFFFF;
-   background-color: #404BBF;
-   cursor: pointer;
-}
-
-
-.button-filter {
-   color: #4D5AE5;
-   background-color: #E7E9FC;
-}
-
-.button-filter:hover,
-.button-filter:focus {
-   color: #FFFFFF;
-   background-color: #404BBF;
-   cursor: pointer;
-}
-
-/**
-  |============================
-  | Contact Styles
-  |============================
-*/
 
 .contact-item {
+   text-decoration: none;
    font-size: 16px;
-   line-height: 24px;
+   line-height: 1.5em;
    letter-spacing: 0.02em;
    color: #434455;
 }
 
 .contact-link :hover,
 .contact-link :focus {
-   color: #404BBF;
+   color: var(--accent-color);
 }
 
 /**
   |============================
-  | Logo Style
+  | BUTTONS
+  |============================
+*/
+
+.button-order {
+   color: #FFFFFF;
+   background-color: var(--button-color);
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5em;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.04em;
+}
+
+.button-order:hover,
+.button-order:focus,
+.button-filter:hover,
+.button-filter:focus {
+   color: #FFFFFF;
+   background-color: var(--accent-color);
+   cursor: pointer;
+}
+
+.button-filter {
+   color: var(--button-color);
+   background-color: #E7E9FC;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5em;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.04em;
+}
+
+/**
+  |============================
+  | LOGO
   |============================
 */
 
@@ -114,7 +145,8 @@ p {
 .logo-light {
    font-family: 'Raleway';
    font-weight: 800;
-   font-size: 1.33em;
+   font-size: 18px;
+   line-height: 1.33em;
    display: flex;
    letter-spacing: 0.03em;
    text-transform: uppercase;
@@ -125,7 +157,7 @@ p {
 }
 
 .logo-dark {
-   color: #2E2F42;
+   color: var(--main-font-color);
 }
 
 .logo-light {
@@ -134,29 +166,18 @@ p {
 
 /**
   |============================
-  | Footer Style
+  | FOOTER
   |============================
 */
 
 .footer {
-   background: #2E2F42;
+   background: var(--main-font-color);
 }
 
 .footer-text {
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5em;
 letter-spacing: 0.02em;
 color: #E7E9FC;
-}
-
-/**
-  |============================
-  | Order Service Style
-  |============================
-*/
-
-.dark-bg {
-   background: #2E2F42;
-   color: #fff;
 }
 
