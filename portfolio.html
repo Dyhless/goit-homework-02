@@ -5,27 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Main Page -->
     <div>
       <!-- Header -->
-      <header>
-        <nav>
-          <a href="index.html"
+      <header class="main-header">
+        <nav class="navigation">
+          <a class="logo" href="index.html"
             ><span class="logo-web">web</span><span class="logo-dark">studio</span></a
           >
-          <ul>
-            <li><a href="index.html">Studio</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Contacts</a></li>
+          <ul class="menu list">
+            <li class="menu-item"><a href="index.html">Studio</a></li>
+            <li class="menu-item"><a href="">Portfolio</a></li>
+            <li class="menu-item"><a href="">Contacts</a></li>
           </ul>
           <ul class="contacts">
             <li class="contact-link">
@@ -41,7 +41,7 @@
         <!--Filters Section -->
         <h2 hidden>Customization of our projects</h2>
         <section class="filters">
-          <ul>
+          <ul class="list">
             <li>
               <button class="button-filter" type="button">All</button>
             </li>
@@ -61,7 +61,7 @@
         </section>
         <!-- Gallery Section -->
         <section class="gallery">
-          <ul class="row-1">
+          <ul class="list">
             <li class="app">
               <img
                 src="./images/1.jpg"
@@ -88,7 +88,7 @@
               <p>App</p>
             </li>
           </ul>
-          <ul class="row-2">
+          <ul class="list">
             <li class="marketing">
               <img src="./images/4.jpg" alt="picture of taxi service" width="360" height="300" />
               <h3>Taxi Service</h3>
@@ -110,7 +110,7 @@
               <p>Marketing</p>
             </li>
           </ul>
-          <ul class="row-3">
+          <ul class="list">
             <li class="design">
               <img src="./images/7.jpg" alt="picture of instagram stories concept" />
               <h3>Instagram Stories Concept</h3>
@@ -132,7 +132,7 @@
       <!-- Footer -->
       <footer class="footer">
         <div class="footer-box">
-          <a href="index.html"
+          <a class="logo" href="index.html"
             ><span class="logo-web">web</span><span class="logo-light">studio</span></a
           >
           <p class="footer-text">
