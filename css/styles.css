@@ -10,7 +10,11 @@ a {
    text-decoration: none;
 }
 
-/* Font Styles */
+/**
+  |============================
+  | Font Styles
+  |============================
+*/
 
 body {
    font-family: 'Roboto','Raleway', sans-serif;
@@ -37,12 +41,15 @@ h3 {
 }
 
 p {
-   font-weight: 400;
    font-size: 16px;
    line-height: 24px;
 }
 
-/* Button Styles */
+/**
+  |============================
+  | Button Styles
+  |============================
+*/
 
 .button-order {
    color: #FFFFFF;
@@ -71,17 +78,73 @@ p {
 
 /* Contact Styles */
 
-.contact-mail,
-.contact-phone {
+.contact-item {
    color: #434455;
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
+.contact-link :hover,
+.contact-link :focus {
    color: #404BBF;
 }
 
-.contact-phone:hover,
-.contact-phone:focus {
-   color: #404BBF;
+/**
+  |============================
+  | Logo Style
+  |============================
+*/
+
+.logo-web {
+      font-weight: 800;
+      font-size: 1.33em;
+      display: flex;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #4D5AE5;
 }
+
+.logo-dark {
+      font-weight: 800;
+      font-size: 1.33em;
+      display: flex;
+      letter-spacing: 0.03em;
+      text-transform: uppercase; 
+      color: #2E2F42;
+}
+
+.logo-light {
+   font-weight: 800;
+   font-size: 1.33em;
+   display: flex;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #F4F4FD;
+}
+
+/**
+  |============================
+  | Footer Style
+  |============================
+*/
+
+.footer {
+   background: #2E2F42;
+}
+
+.footer-text {
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+/**
+  |============================
+  | Order Service Style
+  |============================
+*/
+
+.dark-bg {
+   background: #2E2F42;
+   color: #fff;
+}
+
