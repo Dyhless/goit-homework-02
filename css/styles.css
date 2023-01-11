@@ -76,7 +76,11 @@ p {
    cursor: pointer;
 }
 
-/* Contact Styles */
+/**
+  |============================
+  | Contact Styles
+  |============================
+*/
 
 .contact-item {
    color: #434455;
