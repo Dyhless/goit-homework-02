@@ -4,6 +4,7 @@
    --accent-color: #404BBF;
    --main-font-color: #2E2F42;
    --button-color: #4D5AE5;
+   --footer-font-color: #E7E9FC;
 }
 
 * {
@@ -26,7 +27,9 @@
 body {
    font-family: var(--primary-font),var(--secondary-font);
    color: var(--main-font-color);
-
+   background-color: #FFFFFF;
+   letter-spacing: 0.02em;
+   font-weight: 400;
 }
 
 .main-names {
@@ -140,6 +143,10 @@ body {
   |============================
 */
 
+.logo {
+   display: flex;
+}
+
 .logo-web,
 .logo-dark,
 .logo-light {
@@ -178,6 +185,6 @@ body {
 font-size: 16px;
 line-height: 1.5em;
 letter-spacing: 0.02em;
-color: #E7E9FC;
+color: var(--footer-font-color);
 }
 
