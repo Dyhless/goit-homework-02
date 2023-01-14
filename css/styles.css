@@ -29,11 +29,9 @@ body {
    color: var(--main-font-color);
    background-color: #FFFFFF;
    letter-spacing: 0.02em;
-   font-weight: 400;
 }
 
 .main-names {
-   font-weight: 700;
    font-size: 36px;
    line-height: 1.11em;
 }
@@ -144,22 +142,12 @@ body {
 */
 
 .logo {
-   display: flex;
-}
-
-.logo-web,
-.logo-dark,
-.logo-light {
-   font-family: 'Raleway';
+   font-family: 'Raleway', sans-serif;
    font-weight: 800;
    font-size: 18px;
    line-height: 1.33em;
-   display: flex;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-}
-
-.logo-web {
    color: #4D5AE5;
 }
 
@@ -188,3 +176,6 @@ letter-spacing: 0.02em;
 color: var(--footer-font-color);
 }
 
+.current {
+   color: var(--accent-color);
+}
